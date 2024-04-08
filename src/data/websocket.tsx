@@ -12,7 +12,7 @@ const OPCODES = {
 
 let heartbeatInterval;
 
-const userId = "484531077864751104";
+const userId = "442626774841556992";
 const ws = new WebSocket("wss://api.lanyard.rest/socket");
 
 export default function getLanyard () {

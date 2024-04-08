@@ -12,8 +12,7 @@ import {
     SiTypescript,
     SiReact,
     SiNextdotjs,
-    SiMongoose,
-    SiMongodb,
+    SiGo,
     SiGithub
 } from "react-icons/si";
 
@@ -42,21 +41,19 @@ const UserCard = () => {
                             </div>
                         </div>
                         <div className="mt-3">
-                            <p className="text-xl text-[#ffffff] drop-shadow-xl shadow-[#5c5c5c]">Frontend dev</p>
                             <p className="text-l text-[#dfdfdf] drop-shadow-xl shadow-[#5c5c5c]">Technologies I use</p>
                             <div className="flex items-center justify-start gap-2 mt-2">
                                 <Icon name="VS Code" icon={SiVisualstudiocode} />
                                 <Icon name="Python" icon={SiPython} />
                                 <Icon name="JavaScript" icon={SiJavascript} />
                                 <Icon name="TypeScript" icon={SiTypescript} />
-                                <Icon name="React" icon={SiReact} />
                                 <Icon name="Next.js" icon={SiNextdotjs} />
-                                <Icon name="Mongoose" icon={SiMongoose} />
-                                <Icon name="MongoDB" icon={SiMongodb} />
+                                <Icon name="React" icon={SiReact} />
+                                <Icon name="Golang" icon={SiGo} />
                             </div>
                         </div>
                         <div className="mt-6 flex flex-col gap-2">
-                            <Link name="GitHub" url="https://github.com/ustalam" icon={SiGithub} />
+                            <Link name="GitHub" url="https://github.com/prettylittlelies" icon={SiGithub} />
                         </div>
                     </div>
                     {userData?.listening_to_spotify ? (	
