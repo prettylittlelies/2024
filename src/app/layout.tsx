@@ -6,7 +6,6 @@ const karla = Karla({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "opium.college",
-  description: "github.com/ustalam",
   manifest: "/site.webmanifest"
 };
 
